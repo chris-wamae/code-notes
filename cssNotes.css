@@ -1,0 +1,20 @@
+/* CSS SELECTORS 
+
+use a comma for multiple tags selection eg*/
+h1,h2,div,p
+
+/*use a plus sign to select a tag directly below 
+another(not nested) */
+h2 + h1
+/* in this example h1 will be styled*/
+
+/* use a greater than sign to select a tag nested
+one level from another */
+div > img
+
+/* use the tilde symbol to select all tags after the 
+one before the tilde */
+div ~ p
+
+/* selecting a tag using its attribute */
+button[type=radio]
